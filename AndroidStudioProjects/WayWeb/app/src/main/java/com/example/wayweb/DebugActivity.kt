@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 
-class DebugActivity : AppCompatActivity() {
+open class DebugActivity : AppCompatActivity() {
         private val className: String
         get() {
             val s = javaClass.name
