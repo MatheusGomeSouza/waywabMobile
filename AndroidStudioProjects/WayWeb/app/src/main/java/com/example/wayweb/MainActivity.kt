@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.login)
 
         botao_login.setOnClickListener {
-            Toast.makeText(this, "clicou no botão de login", Toast.LENGTH_LONG).show()
 
             val nome_usuario = campo_nome.text.toString()
 
