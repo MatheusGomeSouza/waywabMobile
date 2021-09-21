@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WayWeb</string>
+    <string name="login">Faça seu login</string>
+    <string name="user">Usuário</string>
+    <string name="pass">Senha</string>
+</resources>
