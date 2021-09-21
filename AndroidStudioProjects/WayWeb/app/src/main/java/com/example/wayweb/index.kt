@@ -10,12 +10,20 @@ class index : DebugActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_index)
+
         val args = intent.extras
 
-        var intent = Intent(this, Roupas::class.java)
+        val nome_usuario = args?.getString("nome_usuario")
+        txt_usuario.text = nome_usuario
 
         roupa1.setOnClickListener{
+            var intent = Intent(this, Roupas::class.java)
+            startActivity(intent)
+        }
 
+        roupa2.setOnClickListener{
+            var intent = Intent(this, Roupas::class.java)
+            startActivity(intent)
         }
     }
 }
